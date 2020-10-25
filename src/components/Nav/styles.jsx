@@ -2,46 +2,33 @@ import styled from 'styled-components';
 
 export default {
   Nav: styled.nav`
-    background: #1f2833;
-    display: flex;
-    align-items: center;
-    height: 80px;
-    padding-top: 1rem;
-    border-bottom: 0.5px outset #45a29e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #64a70b;
+    height: 100%;
+    width: 12rem; /*200px*/
+    list-style: none;
+    text-align: center;
 
     ul {
-      display: flex;
-      justify-content: space-between;
-      padding: 0;
-      margin: 0;
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style: none;
 
-      div:last-of-type {
-        margin: auto 0;
-        display: flex;
-        margin-right: 3rem;
-    
-      li {
-        list-style: none;
+    li {
 
-        a {
-          color: #66fcf1;
-          text-decoration: none;
-          padding: 1em;
-
-          &:hover {
-            color: #45a29e;
-          }
+      a {
+        color: #66fcf1;
+        text-decoration: none;
+        padding: 1em;
+        
+        &:hover {
+          color: #45a29e;
         }
       }
     }
-    }
-  `,
-
-  Img: styled.img`
-    height: 80px;
-    width: auto;
-    display: flex;
-    align-items: center;
+  }
   `
 };

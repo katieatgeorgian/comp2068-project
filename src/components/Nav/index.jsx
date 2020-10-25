@@ -7,6 +7,7 @@ import {
   Route
 } from 'react-router-dom';
 
+import Logo from '../shared/Logo';
 import Home from '../Home';
 import About from '../About';
 import Styles from './styles';
@@ -16,13 +17,7 @@ const Nav = () => {
     <Router>
       <Styles.Nav>
         <ul>
-          <div>
-            <li className="pl-3">
-              <Link to="/">
-                <Styles.Img src="https://user-images.githubusercontent.com/47111708/96376218-9bdb6c00-114b-11eb-942e-d5f8d7e66cfd.png" alt='logo' />
-              </Link>
-            </li>
-          </div>
+          <Logo />
           <div>
           <li>
             <Link to="/">
@@ -48,7 +43,7 @@ const Nav = () => {
         </Route>
       </Switch>
     </Router>
-  );
-}
+    );
+  }
 
-export default Nav;
+  export default Nav;
