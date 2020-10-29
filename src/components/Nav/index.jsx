@@ -10,6 +10,7 @@ import {
 import Logo from '../shared/Logo';
 import Home from '../Home';
 import About from '../About';
+import Contact from '../Contact'
 import Styles from './styles';
 
 const Nav = () => {
@@ -29,6 +30,11 @@ const Nav = () => {
               About
             </Link>
           </li>
+          <li>
+            <Link to="/contact">
+              Contact Us
+            </Link>
+          </li>
           </div>
         </ul>
       </Styles.Nav>
@@ -41,6 +47,11 @@ const Nav = () => {
         <Route exact path="/about">
           <About/>
         </Route>
+
+        <Route exact path="/contact">
+          <Contact/>
+        </Route>
+
       </Switch>
     </Router>
     );

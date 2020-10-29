@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Styles.Footer>
       <div>
-        <small>Katie Hanson</small>
+        <small>the Galleria</small>
       </div>
     </Styles.Footer>
   );

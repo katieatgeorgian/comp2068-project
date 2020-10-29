@@ -5,7 +5,7 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #64a70b;
+    background-color: transparent;
     height: 100%;
     width: 12rem; /*200px*/
     list-style: none;
@@ -18,14 +18,15 @@ export default {
     list-style: none;
 
     li {
-
+      padding-top: 1rem;
+      
       a {
-        color: #66fcf1;
+        color: #560829;
         text-decoration: none;
         padding: 1em;
         
         &:hover {
-          color: #45a29e;
+          color: #063b42;
         }
       }
     }
