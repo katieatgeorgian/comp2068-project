@@ -1,13 +1,19 @@
 import styled from 'styled-components';
 
 export default {
-  Div: styled.div`
+  AboutDiv: styled.div`
+    margin: 0 auto;
     min-height: 90vh;
+    display: flex;
+  `,
 
-    p{
-      position: fixed;
-      top: 3rem;
-      left: 13rem;
-    }
+  AboutOverlay: styled.div`
+    background-color: rgba(255,255,255,0.8);
+    color: #063b42;
+    margin-left: 13vw;
+    margin-top: 10%;
+    height: 50%;
+    padding: 5rem;
+    text-align: center;
   `
 };

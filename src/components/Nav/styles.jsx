@@ -5,7 +5,7 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: white;
     height: 100%;
     width: 12rem; /*200px*/
     list-style: none;

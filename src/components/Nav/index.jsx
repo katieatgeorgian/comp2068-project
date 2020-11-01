@@ -9,6 +9,7 @@ import {
 
 import Logo from '../shared/Logo';
 import Home from '../Home';
+import Gallery from '../Gallery';
 import About from '../About';
 import Contact from '../Contact'
 import Styles from './styles';
@@ -23,6 +24,11 @@ const Nav = () => {
           <li>
             <Link to="/">
               Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/gallery">
+              Gallery
             </Link>
           </li>
           <li>
@@ -44,6 +50,10 @@ const Nav = () => {
           <Home/>
         </Route>
         
+        <Route exact path="/gallery">
+          <Gallery/>
+        </Route>
+
         <Route exact path="/about">
           <About/>
         </Route>

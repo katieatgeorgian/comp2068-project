@@ -1,15 +1,19 @@
 import React from 'react';
 
+import Layout from '../shared/Layout';
 import Footer from '../shared/Footer';
 import Styles from './styles';
 
 const Contact = () => {
   return (
     <>
-    <Styles.Div>
-      <p>Contact</p>
-
-    </Styles.Div>
+    <Layout>
+      <Styles.ContactDiv>
+        <Styles.ContactOverlay>
+          <p>Contact</p>
+        </Styles.ContactOverlay>
+      </Styles.ContactDiv>
+    </Layout>
     <Footer />
     </>
   );

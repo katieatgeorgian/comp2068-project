@@ -1,17 +1,18 @@
 import React from 'react';
+
 import Footer from '../shared/Footer';
 import Styles from './styles';
 import Button from '../shared/Button';
+import Layout from '../shared/Layout';
 
 const Home = () => {
   return (
     <>
-    <Styles.Div>
-      <Styles.OverlayDiv>
-      <p>Home Page</p>
-      <Button href="/contact" label="View Gallery"></Button>
-      </Styles.OverlayDiv>
-    </Styles.Div>
+      <Layout>
+        <Styles.HomeDiv>
+          <Button href="/gallery" label="View Gallery"></Button>
+        </Styles.HomeDiv>
+      </Layout>
       <Footer />
     </>
   );
