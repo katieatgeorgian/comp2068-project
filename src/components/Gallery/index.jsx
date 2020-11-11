@@ -1,29 +1,17 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import { Card } from 'react-bootstrap';
 
 
 import Footer from '../shared/Footer';
 import Styles from './styles';
-import Button from '../shared/Button';
-import ModalGallery from '../shared/Modal';
+
+import GalleryCard from '../shared/Card';
 
 let data = require("../../dummyData.json");
 console.log(data);
+console.log(typeof data)
 
 const Gallery = () => {
-
-  const [open, setOpen] = useState(false);
-
-  const handleClose = (index) => {
-    console.log('closing');
-    setOpen(false);
-    console.log(open);
-  }
-  const handleShow = (index) => {
-      setOpen(true);
-      console.log('open says me');
-  }
-
 
   return (
     <>
@@ -33,23 +21,9 @@ const Gallery = () => {
         console.log(art);
           return (
             <>
-              {open && 
-                <ModalGallery show={open} artist={art.artist} title={art.title} category={art.category} image={art.img} close={handleClose}></ModalGallery>
-                }
-              <div data-key={i} key={i} className="galleryCard" onClick={handleShow}>
- 
-                    <img
-                      alt={art.title}
-                      src={art.img}
-                      style={{width: "75%"}}
-                    />
-                    <h4>{art.title}</h4>
-               
-                </div>
-                
-                </>
+              <GalleryCard title={art.title} img={art.img} email={art.email} artist={art.artist} category={art.category} i={i}></GalleryCard>
+            </>
           );
-            
         })}
       </div>
       </Styles.GalleryDiv>

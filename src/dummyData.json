@@ -1,44 +1,44 @@
-{
-  "art1": {
+[
+  {
     "artist": "Katie Hanson",
     "category": "photography",
     "title": "happy flower1",
     "img": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/117979258_10164359964260227_5041443270269199048_o.jpg?_nc_cat=101&ccb=2&_nc_sid=e3f864&_nc_ohc=CuJKLWEwcqQAX8Cyp0X&_nc_ht=scontent.fyyz1-1.fna&oh=617f451cbc2385534e6b83fa46cbc340&oe=5FC16BE5",
-    "email": "katiehansonphotos@gmail.com"
+    "email": "katiehansonphotos1@gmail.com"
   },
-  "art2": {
+  {
     "artist": "Katie Hanson",
     "category": "painting",
     "title": "happy flower2",
     "img": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/117979258_10164359964260227_5041443270269199048_o.jpg?_nc_cat=101&ccb=2&_nc_sid=e3f864&_nc_ohc=CuJKLWEwcqQAX8Cyp0X&_nc_ht=scontent.fyyz1-1.fna&oh=617f451cbc2385534e6b83fa46cbc340&oe=5FC16BE5",
-    "email": "katiehansonphotos@gmail.com"
+    "email": "katiehansonphotos2@gmail.com"
   },
-  "art3": {
+  {
     "artist": "Katie Hanson",
     "category": "pottery",
     "title": "happy flower3",
     "img": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/117979258_10164359964260227_5041443270269199048_o.jpg?_nc_cat=101&ccb=2&_nc_sid=e3f864&_nc_ohc=CuJKLWEwcqQAX8Cyp0X&_nc_ht=scontent.fyyz1-1.fna&oh=617f451cbc2385534e6b83fa46cbc340&oe=5FC16BE5",
-    "email": "katiehansonphotos@gmail.com"
+    "email": "katiehansonphotos3@gmail.com"
   },
-  "art4": {
+  {
     "artist": "Katie Hanson",
     "category": "photography",
     "title": "happy flower4",
     "img": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/117979258_10164359964260227_5041443270269199048_o.jpg?_nc_cat=101&ccb=2&_nc_sid=e3f864&_nc_ohc=CuJKLWEwcqQAX8Cyp0X&_nc_ht=scontent.fyyz1-1.fna&oh=617f451cbc2385534e6b83fa46cbc340&oe=5FC16BE5",
-    "email": "katiehansonphotos@gmail.com"
+    "email": "katiehansonphotos4@gmail.com"
   },
-  "art5": {
+  {
     "artist": "Katie Hanson",
     "category": "photography",
     "title": "happy flower5",
     "img": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/117979258_10164359964260227_5041443270269199048_o.jpg?_nc_cat=101&ccb=2&_nc_sid=e3f864&_nc_ohc=CuJKLWEwcqQAX8Cyp0X&_nc_ht=scontent.fyyz1-1.fna&oh=617f451cbc2385534e6b83fa46cbc340&oe=5FC16BE5",
-    "email": "katiehansonphotos@gmail.com"
+    "email": "katiehansonphotos5@gmail.com"
   },
-  "art6": {
+  {
     "artist": "Katie Hanson",
     "category": "sculpture",
     "title": "happy flower6",
     "img": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/117979258_10164359964260227_5041443270269199048_o.jpg?_nc_cat=101&ccb=2&_nc_sid=e3f864&_nc_ohc=CuJKLWEwcqQAX8Cyp0X&_nc_ht=scontent.fyyz1-1.fna&oh=617f451cbc2385534e6b83fa46cbc340&oe=5FC16BE5",
-    "email": "katiehansonphotos@gmail.com"
+    "email": "katiehansonphotos6@gmail.com"
   }
-}
+]
