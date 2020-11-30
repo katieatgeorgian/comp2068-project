@@ -1,9 +1,9 @@
    /* Cards */
    .galleryCard {
 
-    height: 35vh;
+    min-height: 35vh;
     width: 40% !important;
-        margin: 1rem;
+    margin: 1rem;
     text-align: center;
     background-color: transparent;
     text-align: center;

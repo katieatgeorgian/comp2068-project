@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Layout>
         <Styles.HomeDiv>
-          <Button href="/gallery" label="View Gallery"></Button>
+          <Button href="/gallery" label="View Gallery" className="btn"></Button>
         </Styles.HomeDiv>
       </Layout>
       <Footer />

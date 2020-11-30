@@ -9,7 +9,8 @@ import {
 
 import Logo from '../shared/Logo';
 import Home from '../Home';
-import Gallery from '../Gallery';
+// import Gallery from '../Gallery';
+import Category from '../CategorySort';
 import About from '../About';
 import Contact from '../Contact'
 import Styles from './styles';
@@ -51,7 +52,7 @@ const Nav = () => {
         </Route>
         
         <Route exact path="/gallery">
-          <Gallery/>
+          <Category/>
         </Route>
 
         <Route exact path="/about">
